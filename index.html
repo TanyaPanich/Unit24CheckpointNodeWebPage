@@ -2,19 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Simple Site Project</title>
+    <title>Recreate Nodejs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="styles.css" type="text/css" media="all">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
   <body>
     <header>
       <div class="container">
         <a href="#" id="logo">
-          <img src="logo.svg" alt="node.js">
+          NODE JS
         </a>
       <nav>
-        <ul>
+        <ul class="navMenu">
           <li class="nav-active">
             <a href="#">Home</a>
           </li>
@@ -62,8 +61,8 @@
             Download for macOS (x64)
           </p>
           <div class="home-dowloadBlock">
-            <a href="#">8.9.4 LTS<br>
-              Recommended for all users.
+            <a href="#" class="home-downloadButton">8.9.4 LTS<br>
+              <small>Recommended for all users.</small>
             </a>
             <ul class="home-devider">
               <li>Other dowloads</li>
@@ -72,8 +71,9 @@
             </ul>
           </div>
           <div class="home-dowloadBlock">
-            <a href="#">9.5.0 Current<br>
-            Latest features</a>
+            <a href="#" class="home-downloadButton">9.5.0 Current<br>
+            <small>Latest features</small>
+            </a>
             <ul class="home-devider">
               <li>Other dowloads</li>
               <li>Changelog</li>
@@ -94,7 +94,7 @@
     <footer>
       <div class="container">
         <div class="linux">
-          <a href="#">LINUX FOUNDATION COLLABORATIVE PROJECTS</a>
+          <a href="#">LINUX FOUNDATION <span class="green">COLLABORATIVE PROJECTS<span></a>
           <ul>
             <li>Report Node.js issue</li>
             <li>Report website issue</li>

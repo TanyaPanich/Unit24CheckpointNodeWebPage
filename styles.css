@@ -1,0 +1,136 @@
+
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+header {
+  background-color: #333;
+  text-align: center;
+  flex-shrink: 0;
+  display: flex;
+}
+div {
+  display: block;
+}
+p {
+  display: block;
+  margin: 1em 0 1em 0;
+}
+.container{
+  width: 100%;
+  max-width: 980px;
+  overflow: hidden;
+}
+#logo {
+  display: block;
+  margin: 10px auto 50px auto;
+}
+.navMenu{
+  margin: 0;
+  padding: 0;
+  display: block
+}
+li+li:before {
+    content: " | ";
+    padding: 0 .3em 0 .1em;
+    color: #999;
+}
+.nav-foundation:before {
+  content: none;
+}
+.nav-foundation {
+  background-color: #026e00;
+}
+li {
+  padding: 12px;
+  display: inline-block;
+  text-align: match-parent;
+}
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #CCC;
+  font-size: 12px;
+}
+
+#home-intro {
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+}
+#home-intro a {
+  color: #43853d;
+  text-decoration: none;
+}
+#home-intro p {
+  line-height: 2em;
+}
+.home-banner {
+  display: block;
+  font-size: 130%;
+  background-color: #eaf5e9;
+  padding: 5px 15px;
+  margin-top: 1em;
+}
+#home-dowloadHead {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.home-dowloadBlock{
+  display: inline-block;
+  margin: 0 8px;
+}
+.home-downloadButton {
+  text-decoration: none;
+  display: block;
+  margin: 10px 4px;
+  padding: .2em .6em;
+  background-color: #026e00;
+  color: #fff !important;
+  font-size: 30px;
+  font-weight: 400;
+}
+.home-dowloadBlock ul{
+  display: block;
+}
+.home-dowloadBlock li{
+  color: #51744e;
+  font-size: .9rem;
+}
+small {
+  display: block;
+  font-size: 0.9rem
+}
+footer {
+  display: flex;
+  margin-top: 0;
+  padding-top: 7px;
+  background-color: #333;
+  color: #999;
+  flex-shrink: 0;
+  font-size: 12px;
+}
+.linux {
+  display: flex;
+  justify-content: space-between;
+}
+.linux a{
+  text-decoration: none;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+}
+span.green {
+  color:#026e00
+}
+
+@media(min-width:800px){
+  .container {
+    width: 60%;
+    margin-left: 20%;
+    margin-right:20%;
+
+  }
+}
