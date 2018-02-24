@@ -6,7 +6,6 @@ body {
 header {
   background-color: #333;
   text-align: center;
-  flex-shrink: 0;
   display: flex;
 }
 div {
@@ -106,7 +105,7 @@ small {
 footer {
   display: flex;
   margin-top: 0;
-  padding-top: 7px;
+  padding: 10px;
   background-color: #333;
   color: #999;
   flex-shrink: 0;
@@ -131,6 +130,8 @@ span.green {
     width: 60%;
     margin-left: 20%;
     margin-right:20%;
-
+  }
+  footer {
+    padding: 7px 0px 0px 0px;
   }
 }
